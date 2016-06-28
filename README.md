@@ -15,11 +15,18 @@ extract metadata and chapters from blurays.
 
 ## Installation
 
-* run `./bootstrap` to create autoconf files
-* be sure to also check out git submodules if you wish use the modified static
-  libbluray
-* check `./configure --help` for options
-* run `./configure ...`, `make`, `make install`
+An usual workflow would be:
+
+    mkdir build && cd build
+    cmake ..
+    make -j4
+    sudo make install
+
+Available cmake options are:
+
+* `system_libbluray` - Use system libbluray (default: ON)
+* `enable_clipnames` - Enable clipnames, will build a custom libbluray version (default: OFF)
+* `require_languages` - Require languages as argument (default: OFF)
 
 
 ## Functionality
