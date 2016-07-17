@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.6)
 cmake_policy(SET CMP0048 NEW)
 
-project(bdinfo VERSION 1.0)
+project(bdinfo VERSION 1.3)
 
 option(system_libbluray  "Use system libbluray"          ON)
 option(enable_clipnames  "Enable clipnames"              OFF)

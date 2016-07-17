@@ -9,7 +9,6 @@ configure
 Makefile
 stamp-h1
 *.a
-*.in
 *.log
 *.m4
 *.o
